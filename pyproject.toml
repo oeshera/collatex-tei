@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "collatex-tei"
+version = "0.1.0"
+description = "Utility functions for converting between CollateX JSON and TEI XML."
+authors = ["Osama Eshera <osama.eshera@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pydantic = "^2.10.6"
+bs4 = "^0.0.2"
+lxml = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

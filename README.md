@@ -1,1 +1,1 @@
-# collatex-to-tei
+# collatex-tei
